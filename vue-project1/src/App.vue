@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="black-bg" v-if="modal === true">
+    <div class="black-bg" @click="modal = false" v-if="modal === true">
       <div class="white-bg">
         <h4>상세 페이지 입니다</h4>
         <p>
